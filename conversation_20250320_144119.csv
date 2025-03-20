@@ -1,0 +1,10 @@
+Timestamp,Type,Contenu
+14:41:24,agent,"Bonjour, je suis un assistant virtuel qui effectue une enquête de satisfaction. Pouvez-vous me donner votre nom et prénom ?"
+14:41:32,utilisateur,Simon Simon
+14:41:34,agent,"Merci. Sur une échelle de 1 à 10, comment évalueriez-vous la qualité de nos services ?"
+14:41:41,agent,Pourriez-vous me dire quels aspects de nos services vous appréciez le plus ?
+14:41:48,agent,Y a-t-il des points que nous pourrions améliorer selon vous ?
+14:41:54,utilisateur,oui la communication
+14:41:55,agent,Merci beaucoup pour votre temps et vos réponses. Avez-vous d'autres commentaires à ajouter ?
+14:41:59,utilisateur,oui
+14:42:01,agent,Merci pour votre participation à cette enquête. Toutes vos réponses ont été enregistrées. Passez une excellente journée!
