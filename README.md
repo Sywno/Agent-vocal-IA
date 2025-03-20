@@ -1,19 +1,26 @@
 🤖 Agent Vocal IA - Enquête de Satisfaction 🗣️
+
 🚀 Introduction
+
 Bienvenue dans le projet Agent Vocal IA ! Ce projet implémente un agent vocal interactif qui pose des questions, écoute les réponses des utilisateurs, et enregistre les dialogues dans un fichier CSV pour une analyse ultérieure. Le tout se fait à l'aide de la synthèse vocale et de la reconnaissance vocale. 🤖🎤
 
 ⚙️ Fonctionnalités
+
 Synthèse vocale (TTS) : L'agent pose des questions à l'utilisateur en utilisant des voix humaines grâce à Edge-TTS.
 Reconnaissance vocale : L'agent écoute les réponses de l'utilisateur et les enregistre à l'aide de la bibliothèque SpeechRecognition.
 Enregistrement des réponses : Les réponses de l'utilisateur sont sauvegardées dans un fichier CSV pour une analyse future.
 Interaction en temps réel : L'agent et l'utilisateur peuvent discuter pendant l'enquête avec des échanges en temps réel.
+
 🛠️ Technologies utilisées
+
 Edge-TTS pour la synthèse vocale
 SpeechRecognition pour la reconnaissance vocale
 Sounddevice et Numpy pour la gestion audio
 CSV pour l'enregistrement des dialogues
 Python 3.x
+
 📥 Installation
+
 1. Cloner le dépôt Git
 bash
 Copier
@@ -49,24 +56,10 @@ Tu peux maintenant lancer le script principal pour démarrer l'agent vocal :
 bash
 Copier
 Modifier
-python agent_vocal.py
-📝 Dépendances
-Les principales dépendances de ce projet sont listées dans le fichier requirements.txt :
+python edge.py
 
-txt
-Copier
-Modifier
-edge-tts==0.1.8
-SpeechRecognition==3.8.1
-sounddevice==0.4.4
-numpy==1.24.1
-Tu peux installer ces dépendances avec la commande suivante :
-
-bash
-Copier
-Modifier
-pip install -r requirements.txt
 🧑‍💻 Comment ça marche ?
+
 L'agent vocal pose des questions (par exemple, "Quel est votre nom ?").
 L'utilisateur répond à voix haute.
 L'agent enregistre la réponse et l'ajoute à un fichier CSV avec un horodatage.
