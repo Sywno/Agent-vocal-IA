@@ -49,8 +49,23 @@ Tu peux maintenant lancer le script principal pour démarrer l'agent vocal :
 bash
 Copier
 Modifier
-python edge.py
+python agent_vocal.py
+📝 Dépendances
+Les principales dépendances de ce projet sont listées dans le fichier requirements.txt :
 
+txt
+Copier
+Modifier
+edge-tts==0.1.8
+SpeechRecognition==3.8.1
+sounddevice==0.4.4
+numpy==1.24.1
+Tu peux installer ces dépendances avec la commande suivante :
+
+bash
+Copier
+Modifier
+pip install -r requirements.txt
 🧑‍💻 Comment ça marche ?
 L'agent vocal pose des questions (par exemple, "Quel est votre nom ?").
 L'utilisateur répond à voix haute.
